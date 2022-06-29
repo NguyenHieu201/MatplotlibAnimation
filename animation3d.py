@@ -72,7 +72,7 @@ def proses():
                 (pow(vy[i-1, j], 2)/hy[i-1, j] + g/2*pow(hy[i-1, j], 2)) - (pow(vy[i-1, j-1], 2)/hy[i-1, j-1] + g/2*pow(hy[i-1, j-1], 2)))
 
 #dh = dt/dt*(ux[1:,:]-ux[:-1,:])+ dt/dy*(vy[:,1:]-vy[:,:-1])
-    reflective()
+    # reflective()
     return h, u, v
 
 
